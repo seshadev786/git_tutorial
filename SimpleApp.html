@@ -8,11 +8,13 @@
 <body  style="background:yellow">
     <h1 id="head" style=color:red;>Heading</h1>
     <h2 id="Head" style="background:blue">Heading</h2>
-    <h3 style="background:violet">heading</h3>
+    <h3 id="smallHead" style="background:violet">heading</h3>
     <script src="app.js"></script>
     <script>
         let h2=document.querySelector("#Head");
         h2.innerHTML="This is second larger heading";
+        let h3=document.getElementById("smallHead");
+        h3.innerHTML="This is small heading amongst all";
     </script>
 </body>
 </html>
